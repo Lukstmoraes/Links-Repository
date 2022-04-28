@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #515058;   
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    
+    padding: 16px;
+    background-color: #0882ba;
+    color: #e7f3fd;
+    font-size: 3rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 30px 40px 5px;
+    padding: 5px;   
+}
+
+.content {
+    display: flex;
+    /* justify-content: space-between; */
+
+    margin: 5px; 
+    border: 2px solid #0882ba;
+    padding: 10px;
+    width: 65%;
+}
+
+.vs-code {
+    margin-right: 400px;
+    margin-left: 10px;
+}
+.html {
+    margin-right: 400px;
+    margin-left: 10px;
+}
+.css {
+    margin-right: 400px;
+    margin-left: 10px;
+}
+.fonts {
+    margin-right: 400px;
+    margin-left: 10px;
+}
+.pictures {
+    margin-right: 400px;
+    margin-left: 10px;
+    
+}
+
+.others {
+    margin-right: 400px;
+    margin-left: 10px;
+}
+
+img {
+    width: 155px;
+    height: 135px;
+
+    margin: -3px;
+    margin-right: 4px;
+}
+
+.content:hover {
+    background-color: #2b2b2e;
+    border: 5px solid #033d94;
+    box-shadow: 5px 8px #444;
+}
+
+h3 {
+    font-weight: bold;
+    color: #e7f3fd;
+    font-size: 1.7rem;
+}
+
+.links {
+    display: table-cell;
+    display: flex;  
+}  
+
+.column-1 {
+    display: table-cell;
+    width: 165px;  
+}
+
+a {
+    color: #e08918 ;
+    font-size: 0.93rem; 
+    white-space: nowrap;  
+    text-decoration: none; 
+}
+
+/* arquivo modificado em 26/03/2022, favor verificar e atualizar no github */
+
+
+
